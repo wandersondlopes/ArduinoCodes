@@ -17,7 +17,7 @@ int portB = 11;
 
 void setup(){
   Serial.begin(9600);
-  Serial.print("Level logic of logic gates: 1 = high e 0 = Low\n\n");
+  Serial.print("Level logic of gates: 1 = high e 0 = Low\n\n");
   Serial.println("Type the value logic of canal A ");
   while(!Serial.available()){}
   estateA = Serial.read() - 48;
@@ -80,7 +80,7 @@ void ScanDigi(bool &logicY,bool &logicX){
 }
 
 void menu(bool &estA, bool &estB, bool &logicY, bool &logicX, int &analogY, int &analogX){
-  Serial.println("\t\t\t\tMenu\n\n1: Definir entradas status A e B\n2: Read analogic values\n3: Read logic values\n4: Resume\n\n");
+  Serial.println("\t\t\t\tMenu\n\n1: Define status inputs A e B\n2: Read analogic values\n3: Read logic values\n4: Resume\n\n");
   while(!Serial.available()){}
   int opcao = Serial.read() - 48;
   switch(opcao){
