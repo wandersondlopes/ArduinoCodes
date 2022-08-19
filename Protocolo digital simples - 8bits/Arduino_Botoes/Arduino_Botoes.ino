@@ -1,5 +1,5 @@
 /*
-Código para 8 botões e oito LEDs em em arduinos diferentes.
+Código para 8 botões e 8 LEDs em arduinos diferentes.
 A comunicação é feita entre um arduino com 8 botoes digitais e outro arduino com 8 leds
 */
 
