@@ -1,8 +1,6 @@
 /*
-Protocolo para 8 sensores digitais. A comunicação é feita entre
-um arduino com 8 botoes digitais e outro arduino com 8 leds
-
-Esse codigo é para o arduino com 8 botoes
+Código para 8 botões e oito LEDs em em arduinos diferentes.
+A comunicação é feita entre um arduino com 8 botoes digitais e outro arduino com 8 leds
 
 */
 
