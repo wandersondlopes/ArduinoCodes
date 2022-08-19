@@ -1,7 +1,6 @@
 /*
 Código para 8 botões e oito LEDs em em arduinos diferentes.
 A comunicação é feita entre um arduino com 8 botoes digitais e outro arduino com 8 leds
-
 */
 
 int digital[] = {4,5,6,7,8,9,10,11};
