@@ -1,3 +1,15 @@
+/*
+        GME - Grupo de Metodos Eletroforeticos
+
+
+	Desenvolvedor: Wanderson D. Lopes
+
+
+*/
+
+
+
+
 int pinA = 4;
 int pinB = 7;
 int pinC = 8;
