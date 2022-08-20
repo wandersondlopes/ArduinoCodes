@@ -1,6 +1,5 @@
 /*Nesse programa teste se faz operacoes com binarios
-e observa_se suass saidas no terminal em caracteres char */
-
+e observa_se suas saidas no terminal em caracteres char */
 
 
 byte y = 0b00000011;
