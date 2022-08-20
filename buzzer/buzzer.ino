@@ -1,3 +1,13 @@
+/*
+        GME - Grupo de Metodos Eletroforeticos
+
+
+	Desenvolvedor: Wanderson D. Lopes
+
+
+*/
+
+
 #define buss 5000
 bool buzzctr = true;
 char ctr;
