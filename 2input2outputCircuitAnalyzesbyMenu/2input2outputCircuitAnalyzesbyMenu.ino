@@ -1,12 +1,7 @@
 /*
         GME - Grupo de Metodos Eletroforeticos
 
-The code was defined for read analogical and digital signals of
-logic circuit. The circuit analyzed has two output and two inputs. This program
-get a relation of input and outputs after to select option 2 or 3  by the menu.
 
-Codigo foi definido para leitura analogica e digital de um circuito
-logico de duas saidas e duas entradas. Existe a opção de gerar um relatório
 */
 
 bool estateA,estateB,loY,loX;
