@@ -1,3 +1,10 @@
+/*
+        GME - Grupo de Metodos Eletroforeticos
+        Desenvolvedor: Wanderson D. Lopes
+*/
+
+
+
 #include <TimerOne.h>
 
 //variaveis do spin coater
