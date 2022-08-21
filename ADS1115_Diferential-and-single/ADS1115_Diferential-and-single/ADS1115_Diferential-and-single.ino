@@ -1,3 +1,11 @@
+/*
+
+        Desenvolvedor: Wanderson D. Lopes
+*/
+
+
+
+
 #include <Wire.h>
 #include <Adafruit_ADS1015.h>
 
