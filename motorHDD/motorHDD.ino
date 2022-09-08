@@ -2,7 +2,7 @@
   GME - Grupo de Metodos Eletroforéticos
   Instituto de Quimica - UFG
   
-  Utilizamos um arduino para gerar sinais para um driver de potência que proporciona a potencia necessária
+  Utilizamos um arduino para gerar sinais para um driver de potência que proporciona a potência necessária
   para um motor brushless de HDD. Utilizamos as portas 4, 7 e 8 do Arduino.
 
 
