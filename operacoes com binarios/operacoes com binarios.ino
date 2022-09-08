@@ -1,5 +1,14 @@
-/*Nesse programa teste se faz operacoes com binarios
-e observa-se suas saidas serial usando char */
+
+/*
+  GME - Grupo de Metodos Eletroforéticos
+	Instituto de Quimica - UFG
+	
+  Nesse programa-teste são feitas operacoes com binarios
+  e observa-se sua saida serial
+  
+  Desenvolvedor: Wanderson D. Lopes
+*/
+
 
 
 byte y = 0b00000011;
@@ -17,9 +26,9 @@ void setup(){
  
   // or composto forca os bits a serem marcados com 1
   c |= (1<< l);  
-  //and composto negado. Forca o valor zerar o negado e para negar 1
+  //and composto negado.
   c &= ~(1<< k);   
-  // xor valor obriga ou ou exclusivo
+  // xor
   c ^= (1<< d);
 
   Serial.print(char(c));  
