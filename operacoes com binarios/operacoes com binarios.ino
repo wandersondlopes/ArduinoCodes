@@ -1,6 +1,6 @@
 /*
   GME - Grupo de Metodos Eletroforéticos
-	Instituto de Quimica - UFG
+  Instituto de Quimica - UFG
 	
   Nesse programa-teste são feitas operacoes com binarios
   e observa-se sua saida serial
