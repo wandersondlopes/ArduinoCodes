@@ -1,10 +1,41 @@
 /*
-        GME - Grupo de Metodos Eletroforeticos
+  GME - Grupo de Metodos Eletroforéticos
+  Instituto de Quimica - UFG
+  
+  Utilizamos um arduino para gerar sinais para um driver de potência que proporciona a potencia necessária
+  para um motor brushless de HDD. Utilizamos as portas 4, 7 e 8 do Arduino.
 
 
-	Desenvolvedor: Wanderson D. Lopes
-
-
+                                      +-----+
+         +----[PWR]-------------------| USB |--+
+         |                            +-----+  |
+         |         GND/RST2  [ ][ ]            |
+         |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5 
+         |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4 
+         |                             AREF[ ] |
+         |                              GND[ ] |
+         | [ ]N/C                    SCK/13[ ] |   B5
+         | [ ]v.ref                 MISO/12[ ] |   .
+         | [ ]RST                   MOSI/11[ ]~|   .
+         | [ ]3V3    +---+               10[ ]~|   .
+         | [ ]5v     | A |                9[ ]~|   .
+         | [ ]GND   -| R |-               8[ ] |   B0
+         | [ ]GND   -| D |-                    |
+         | [ ]Vin   -| U |-               7[ ] |   D7
+         |          -| I |-               6[ ]~|   .
+         | [ ]A0    -| N |-               5[ ]~|   .
+         | [ ]A1    -| O |-               4[ ] |   .
+         | [ ]A2     +---+           INT1/3[ ]~|   .
+         | [ ]A3                     INT0/2[ ] |   .
+         | [ ]A4/SDA  RST SCK MISO     TX>1[ ] |   .
+         | [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0
+         |            [ ] [ ] [ ]              |
+         |  UNO_R3    GND MOSI 5V  ____________/
+          \_______________________/
+		  
+		
+  
+  Desenvolvedor: Wanderson D. Lopes
 */
 
 
@@ -36,10 +67,6 @@ void espera(unsigned long x){
 }
 
 
-/* converte o tempo de delay de microsegudos para milesegundos   
- multiplicar pela quantidade de execuções por volta   
- calcular a quantidae de voltas por segundo   
- calcular a quantidade de voltas por minuto */
 void RPM(){
 	if(steppingDelay < 10000){   
 		float vpm = (1000/((steppingDelay/1000)*6))*60;     
