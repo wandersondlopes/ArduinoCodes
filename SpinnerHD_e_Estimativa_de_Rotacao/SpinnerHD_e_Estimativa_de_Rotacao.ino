@@ -1,8 +1,16 @@
 /*
-        GME - Grupo de Metodos Eletroforeticos
-        Desenvolvedor: Wanderson D. Lopes
-*/
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 
+Codigo escrito com a finalidade de estudar a aplicabilidade de um motor brushless de HDD como um spinner.
+Também é gerada uma estimativa de rotação do motor.
+Utiliza-se a quantidade de ciclos determinados no código para estimar a rotação.
+
+criado jan 2015
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
 
 
 #include <TimerOne.h>
