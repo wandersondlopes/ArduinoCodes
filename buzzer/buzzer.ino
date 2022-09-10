@@ -6,7 +6,7 @@ Codigo escrito para gerar sinais para transdutores piezoelétricos.
 O sinal pode ser interrompido via serial quando recebe 's', 
 o sinal pode iniciar novamente após a serial receber 'c' 
 
-criado   Nov 2011
+criado   Nov 2015
 por Wanderson D. Lopes
 modificado set 2022
 por Wanderson D. Lopes
