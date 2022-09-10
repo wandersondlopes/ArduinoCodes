@@ -1,11 +1,17 @@
 /*
-        GME - Grupo de Metodos Eletroforeticos
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 
+Codigo escrito para gerar sinais para transdutores piezoelétricos.
+O sinal pode ser interrompido via serial quando recebe 's', 
+o sinal pode iniciar novamente após a serial receber 'c' 
 
-	Desenvolvedor: Wanderson D. Lopes
-
-
+criado   Nov 2011
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
 */
+
 
 
 #define buss 5000
@@ -18,18 +24,18 @@ void setup(){
 }
 
 void loop(){
-  while(!Serial.available()){
+  while(!Serial.available()){ // loop while responsável por produzir sinal para a membrana piezoelétrica
     digitalWrite(8,HIGH);
     delayMicroseconds(buss);
     digitalWrite(8,LOW);
     delayMicroseconds(buss);
   }
-  ctr = Serial.read();
-  if(ctr == 'c'){ // continua o sinal se recebe c
+  ctr = Serial.read(); // variavel ctr recebe byte da serial e limpa o buffer da serial
+  if(ctr == 'c'){ // se variavel é 'c' segue a rotina if e entra novamente no loop while
   }
-  else if(ctr == 's' ){ // interrompe o sinal se recebe s
+  else if(ctr == 's' ){ // se variavel crt é 's' segue a rotina if, se é outra string volta para o loop while que gera sinal para o a membrana piezoelétrica
       while(buzzctr){
-        if(Serial.read() == 'c'){
+        if(Serial.read() == 'c'){ // se mantém no loop while até receber 'c'
         buzzctr = false;
         }
       }
