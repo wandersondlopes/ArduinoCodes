@@ -1,3 +1,19 @@
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
+Software que faz medidas de voltagem
+É utilizado um circuito constituido de um capacitor eletrolitico e um resistor em série.
+Utilizado para medir no nó do circuito que liga o capacitor eletrolitico e o resistor.
+
+
+criado   2015
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
+
 #define car 12
 
 
@@ -32,12 +48,12 @@ void Leitura()
   Serial.println("Amostra\tLeitura");
   Serial.print(0);
   Serial.print("\t");
-  float voltage = float(medidainicial*5.00000/1023.000);
-  Serial.println(voltage);
+  float voltagem = float(medidainicial*5.00000/1023.000);
+  Serial.println(voltagem);
   for(int i = 0;i < 500;i++){
     Serial.print(i+1);
     Serial.print("\t");
-    voltage = float(var[i]*5.00000/1023.000);
-    Serial.println(voltage);
+    voltagem = float(var[i]*5.00000/1023.000);
+    Serial.println(voltagem);
     }
 }
