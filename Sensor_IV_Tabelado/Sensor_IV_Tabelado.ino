@@ -1,9 +1,15 @@
 /*
-        GME - Grupo de Metodos Eletroforeticos
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 
-        Desenvolvedor: Wanderson D. Lopes
+Código escrito para fazer medidas de um fototransistor de infravermelho
+Os valores medidos são impressos no pelo Serial
+
+criado   Jun 2014
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
 */
-
 
 
 int sensorPin = A0;    // select the input pin for the potentiometer
