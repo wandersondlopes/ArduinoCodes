@@ -48,12 +48,12 @@ void Leitura()
   Serial.println("Amostra\tLeitura");
   Serial.print(0);
   Serial.print("\t");
-  float voltagem = float(medidainicial*5.00000/1023.000);
-  Serial.println(voltagem);
+  float voltage = float(medidainicial*5.00000/1023.000);
+  Serial.println(voltage);
   for(int i = 0;i < 500;i++){
     Serial.print(i+1);
     Serial.print("\t");
-    voltagem = float(var[i]*5.00000/1023.000);
-    Serial.println(voltagem);
+    voltage = float(var[i]*5.00000/1023.000);
+    Serial.println(voltage);
     }
 }
