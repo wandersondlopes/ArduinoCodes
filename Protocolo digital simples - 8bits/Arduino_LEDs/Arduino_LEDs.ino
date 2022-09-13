@@ -1,4 +1,18 @@
 /*
+Eletriclabor Tecnologia
+
+Protocolo para 8 sensores digitais. A comunicação é feita entre
+um arduino com 8 botoes digitais e outro arduino com 8 leds
+codigo para o arduino com 8 LEDs
+
+criado   Nov 2019
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
+
+/*
 Protocolo para 8 sensores digitais. A comunicação é feita entre
 um arduino com 8 botoes digitais e outro arduino com 8 leds
 
