@@ -1,3 +1,17 @@
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
+Função: Fazer um led funcionar ligando e desligando periodicamente porem de maneira não abrupta.
+Ganhando intensidade e perdendo intensidade.
+
+criado   Nov 2015
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
+
 #define led1 10
 #define led2 9
 #define led3 8
