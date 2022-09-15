@@ -2,7 +2,9 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Analisar a recursividade em liguagem C/C++ em um arduino
+Codigo escrito para estudar a recursividade em liguagem C/C++ em um arduino.
+Utiliza-se a função impressao() de maneira recursiva. Quando a variavel inicio é incrementada até ter valor maior que finzin
+a recursividade para de ser realizada na função.
 
 criado   Jan 2015
 por Wanderson D. Lopes
