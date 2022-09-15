@@ -3,7 +3,11 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-
+O circuito ligado ao arduino é constituido por um fotodiodo polarizado apropriadamente com sinal ligado a porta A0 do Arduino.
+Também foi montado 3 transistores em paralelo devidamente polarizados ligados a um led. Esse Led quando alimentado devidamente fornece luz
+para o fotodiodo.
+O codigo foi escrito para fazer a leitura do sinal do fotodiodo na porta A0 e ajuste de nível de zero pela Serial. Temos também
+o controle de cada led pela Serial.
 
 criado   Set 2014
 por Wanderson D. Lopes
