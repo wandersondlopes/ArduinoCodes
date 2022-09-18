@@ -1,5 +1,15 @@
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 
-// De Paulo Trentin
+Código responsavel por receber string pela Serial e concatenar
+em uma string utilizando a função concat()
+
+criado   
+por Paulo Trentin
+modificado set 2022
+por Wanderson D. Lopes
+*/
 
 
 int led = 13;
