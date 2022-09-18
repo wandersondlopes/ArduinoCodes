@@ -1,3 +1,23 @@
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
+Spinner usando motor Brushless de HDD
+Utiliza-se os dados experimentais de experimentos usando os códigos
+MotorHDD_Potenciometro_Experimento1.ino e MotorHDD_Potenciometro_Experimento2.ino
+O código acrescenta uma otimização da utilização do Potenciometro como controle de velocidade
+Versão com otimização para um segundo motor
+
+Spinner: Utilizamos um arduino para gerar sinais para um driver que alimenta um motor brushless de HDD.
+         Utilizamos as portas 4, 7 e 8. Codigo otimizado. A porta A0 recebe tensões de +5V a 0V por um potenciometro
+         Os valores de ddp convertidos em valores numéricos determinam o periodo de ciclo de alimentação dos estatores
+         
+criado   15/10/2014
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
 
 int a = 4;
 int b = 7;
