@@ -1,10 +1,15 @@
-/* 
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 
-Esse codigo é um exemplo de uso com 3 maneiras diferentes de receber os bits do MCP3551
-O protocolo de comunicação é SPI.
-É utilizado o framework Arduino em algumas funções em outras não é necessário
+Esse código é um exemplo de uso com 3 maneiras diferentes de receber os bits do MCP3551
+O protocolo de comunicação é SPI
+
+criado   2021
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
 */
-
 
 /*
 pins: 
@@ -118,6 +123,3 @@ float Reading3(){
 }
 
 }
-
-
-
