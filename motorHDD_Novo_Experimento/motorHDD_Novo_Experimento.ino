@@ -2,8 +2,10 @@
   GME - Grupo de Metodos Eletroforéticos
   Instituto de Quimica - UFG
   
-  Utilizamos um arduino para gerar sinais para um driver de potência que proporciona a potência necessária
-  para um motor brushless de HDD. Utilizamos as portas 4, 7 e 8 do Arduino.
+  Utilizamos um arduino para gerar sinais para um driver que alimenta um motor brushless de HDD.
+  Utilizamos as portas 4, 7 e 8. Codigo otimizado. A porta A0 recebe tensões de +5V a 0V por um potenciometro
+  Os valores de ddp convertidos em valores numéricos determinam o periodo de ciclo de alimentação dos estatores
+  
                                       +-----+
          +----[PWR]-------------------| USB |--+
          |                            +-----+  |
@@ -32,7 +34,6 @@
           \_______________________/
 		  
 		
-  
 criado   05/09/2014
 por Wanderson D. Lopes
 modificado set 2022
