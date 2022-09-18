@@ -2,7 +2,6 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Código de iniciante
 Contém um loop que incrementa o valor de uma variavel e imprime pela serial
 
 criado   10/06/2014
