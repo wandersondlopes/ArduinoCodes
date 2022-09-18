@@ -1,4 +1,17 @@
 
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
+Utilizamos um arduino para gerar sinais para um driver que alimenta um motor brushless de HDD.
+A porta A0 recebe tensões de +5V a 0V por um potenciometro. Os valores de ddp convertidos em 
+valores numéricos determinam o periodo de ciclo de alimentação dos estatores.
+
+criado   Nov 2011
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
 
 /* 23ms eh o tempo mínimo para arranque no giro slow e 4ms eh o tempo 
 minimo para giro rapido*/
@@ -45,5 +58,4 @@ void loop(){
     delay(tempo);
     digitalWrite(c, LOW);
     
- 
 }
