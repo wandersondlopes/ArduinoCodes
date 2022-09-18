@@ -1,8 +1,8 @@
 /* 
                       GME - GRUPO DE METODOS ELETROFORETICOS
                       
-Função: Gera uma saida de sinal de 5V na porta 10 para um motor. O programa
-manda o sinal apenas uma vez depois de 15 segundos durante um prazo de 1,8
+Função: Gera um sinal de 5V na porta 10 para driver que alimenta um motor.
+O sinal é fornecido apenas uma vez depois de 15 segundos durante um prazo de 1,8
 segundo. Esse tempo de envio é o tempo que leva para o pistão ir até o final.
 
 Criador: Wanderson Domingos Lopes
