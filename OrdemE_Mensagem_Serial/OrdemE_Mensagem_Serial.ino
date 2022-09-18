@@ -10,9 +10,6 @@ modificado set 2022
 por Wanderson D. Lopes
 */
 
-
-
-
 int ledPin = 13;
 int a = 2;
 int valorcalculado = 3;
