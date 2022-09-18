@@ -13,14 +13,13 @@
  by Nicholas Zambetti 
  modified 9 Apr 2012
  by Tom Igoe
- modified 06 Feb 2015
+ modified 18/09/2022
  by Wanderson D. Lopes
  
  This example code is in the public domain.
-
- <http://www.ghithub.com> 
- 
  */
+
+
 void setup() { 
  //Initialize serial and wait for port to open:
   Serial.begin(9600); 
