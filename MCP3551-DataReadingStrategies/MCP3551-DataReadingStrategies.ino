@@ -1,6 +1,5 @@
 /*
-GME - Grupo de Metodos Eletroforéticos
-Instituto de Quimica - UFG
+
 
 Esse código é um exemplo de uso com 3 maneiras diferentes de receber os bits do MCP3551
 O protocolo de comunicação é SPI
