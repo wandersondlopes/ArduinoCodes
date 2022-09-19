@@ -13,8 +13,6 @@ por Wanderson D. Lopes
 */
 
 
-
-
 #include <EEPROM.h>
 #define LED 11
 void setup() {
