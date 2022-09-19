@@ -1,3 +1,15 @@
+/*
+Curso Química Computacional- IQ/UFG
+
+
+
+criado   
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
+
 #include<stdio.h>
 #include<math.h>
 
