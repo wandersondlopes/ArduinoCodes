@@ -3,7 +3,7 @@ GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
 Escreve caracteres vindos da serial na EEPROM.
-Opçõ sw e imprimir pela serial comentada
+Opção de imprimir pela serial comentada
 
 criado   03/01/2015
 por Wanderson D. Lopes
