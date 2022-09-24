@@ -7,7 +7,7 @@ Temos a opção de montrar os estados das portas entre outras.
 Com isso podemos modificar o estado apenas por comandos pela serial.
 Temos a vantagem também de uma interação mais intuitiva para o usuário.
 
-criado  
+criado  25/01/2015
 por Wanderson D. Lopes
 modificado set 2022
 por Wanderson D. Lopes
