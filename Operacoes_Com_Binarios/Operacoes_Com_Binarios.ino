@@ -4,8 +4,7 @@ Instituto de Quimica - UFG
 	
 Nesse programa são feitas operacoes com binarios.
 Observa-se seu valor pela serial
-  
-
+ 
 criado   04/01/2015
 por Wanderson D. Lopes
 modificado set 2022
