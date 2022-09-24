@@ -1,4 +1,7 @@
 /*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
 Controlling movements of two servos using a Joystick
 Joystick's x- and y- axes are connected to A0 and A1 analog pins of Arduino.
 Servos are connectd to PWM Pins 9 and 10.
