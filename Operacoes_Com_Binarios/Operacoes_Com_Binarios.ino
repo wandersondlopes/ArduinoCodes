@@ -1,11 +1,15 @@
 /*
-  GME - Grupo de Metodos Eletroforéticos
-  Instituto de Quimica - UFG
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 	
-  Nesse programa-teste são feitas operacoes com binarios
-  e observa-se sua saida serial
+Nesse programa são feitas operacoes com binarios.
+Observa-se seu valor pela serial
   
-  Desenvolvedor: Wanderson D. Lopes
+
+criado   04/01/2015
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
 */
 
 
@@ -27,7 +31,7 @@ void setup(){
   c |= (1<< l);  
   //and composto negado.
   c &= ~(1<< k);   
-  // xor
+  // xor composto
   c ^= (1<< d);
 
   Serial.print(char(c));  
