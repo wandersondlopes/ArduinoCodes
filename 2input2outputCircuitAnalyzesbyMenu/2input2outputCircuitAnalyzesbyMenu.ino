@@ -1,7 +1,16 @@
 /*
-        GME - Grupo de Metodos Eletroforeticos
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 
+Conseguimos com esse codigo mudar o estado de dois pinos no Arduino de acordo com um Menu.
+Temos a opção de montrar os estados das portas entre outras. 
+Com isso podemos modificar o estado apenas por comandos pela serial.
+Temos a vantagem também de uma interação mais intuitiva para o usuário.
 
+criado  
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
 */
 
 bool estateA,estateB,loY,loX;
