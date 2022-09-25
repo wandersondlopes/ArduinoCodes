@@ -1,3 +1,17 @@
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
+Intermidar a troca de dados entre a Serial do Arduino e com a Serial do adicional
+Esse serial adicional tem conectado um módulo bluetooth
+
+criado   09/05/2015
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
+
 #include <SoftwareSerial.h>  
    
    
@@ -35,4 +49,4 @@ void loop()
     mySerial.write(Serial.read());  
   }  
    
-}// END loop  
+}// END loop
