@@ -5,7 +5,7 @@ Instituto de Quimica - UFG
 Usando o método parseInt() para receber valores numéricos pela Serial
 e imprimir tabela com colunas Tempo e Velocidade pela Serial
 
-criado   Nov 2011
+criado   08/02/2015
 por Wanderson D. Lopes
 modificado set 2022
 por Wanderson D. Lopes
