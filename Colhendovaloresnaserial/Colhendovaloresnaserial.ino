@@ -1,3 +1,17 @@
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
+Usando o método parseInt() para receber valores numéricos pela Serial
+e imprimir tabela com colunas Tempo e Velocidade pela Serial
+
+criado   Nov 2011
+por Wanderson D. Lopes
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
+
 int tmp;
 int vel;
 
