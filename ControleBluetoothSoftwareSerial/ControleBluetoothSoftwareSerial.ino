@@ -2,7 +2,7 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Intermidar a troca de dados entre a Serial do Arduino e com a Serial do adicional
+Intermedar a troca de dados entre a Serial do Arduino e com uma Serial do adicional
 Esse serial adicional tem conectado um módulo bluetooth
 
 criado   09/05/2015
