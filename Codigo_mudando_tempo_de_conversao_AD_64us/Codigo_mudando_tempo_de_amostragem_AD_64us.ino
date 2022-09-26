@@ -1,3 +1,17 @@
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
+Podemos alterar a maneira que Arduino UNO faz medidas pelo seu conversor AD.
+A taxa de amostragem com sua respectiva precisão pode ser modificada.
+
+criado   28/12/2015
+por Fábio Souza (Embarcados)
+modificado set 2022
+por Wanderson D. Lopes
+*/
+
+
 // Variáveia para armazenar os resultados
  
 unsigned long tempo_inicio;
@@ -20,7 +34,7 @@ void setup() {
  
  // valores possiveis de prescaler só deixar a linha com prescaler desejado
  // PS_16, PS_32, PS_64 or PS_128
- //ADCSRA |= PS_128; // 64 prescaler
+ //ADCSRA |= PS_128; // 128 prescaler
     ADCSRA |= PS_64; // 64 prescaler
  //  ADCSRA |= PS_32; // 32 prescaler
  // ADCSRA |= PS_16; // 16 prescaler
