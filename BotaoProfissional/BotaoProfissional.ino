@@ -1,17 +1,17 @@
-/* ============================================================
+/*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
 
-   Curso de Arduino
-   
-   Leitura Profissional de Botões
+Leitura Profissional de Botões
 
-   Compilador: Arduino IDE 1.8.4
+Compilador: Arduino IDE 1.8.4
+MCU: Atmega328p
 
-   MCU: Atmega328p
-   Autor: Eng. Wagner Rambo
-   Data:  Abril de 2020
-
-
-============================================================ */
+criado   Abr 2022
+por Eng. Wagner Rambo
+modificado set 2022
+por Wanderson D. Lopes
+*/
 
 
 // ============================================================
@@ -51,30 +51,6 @@ void setup()
     
 } //end setup
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
