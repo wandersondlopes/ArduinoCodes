@@ -9,7 +9,7 @@ MCU: Atmega328p
 
 criado   Abr 2022
 por Eng. Wagner Rambo
-modificado set 2022
+modificado Out 2022
 por Wanderson D. Lopes
 */
 
