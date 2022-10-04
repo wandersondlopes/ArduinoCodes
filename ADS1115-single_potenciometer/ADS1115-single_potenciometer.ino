@@ -1,6 +1,4 @@
 /*
-GME - Grupo de Metodos Eletroforéticos
-Instituto de Quimica - UFG
 
 Aplicação simples de impressão na Serial de valores medidos pelo conversor analógico digital ADS1115.
 Foi utilizado um potenciometro ligado ao ADS1115.
