@@ -1,10 +1,7 @@
 /*
-GME - Grupo de Metodos Eletroforéticos
-Instituto de Quimica - UFG
-
 Medida de tensão usando o ADC ADS1115 com leituras diferencial e simples.
 São feitas medidas pelo ADC do Arduino com 8 bits
-
+Medidas são impressas em uma tabela pela serial
 
 
 criado         2021
