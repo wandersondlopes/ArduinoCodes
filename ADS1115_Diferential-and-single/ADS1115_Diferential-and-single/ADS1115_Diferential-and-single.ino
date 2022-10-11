@@ -4,8 +4,9 @@ São feitas medidas pelo ADC do Arduino com 8 bits
 Medidas são impressas em uma tabela pela serial
 
 
-criado         2021
-modificado set 2022
+criado     Jan 2021
+por Wanderson D. Lopes
+modificado Set 2022
 por Wanderson D. Lopes
 */
 
