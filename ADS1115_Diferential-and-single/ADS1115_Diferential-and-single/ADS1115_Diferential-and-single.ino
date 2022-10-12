@@ -1,11 +1,15 @@
 /*
-Medida de tensão usando o ADC ADS1115 com leituras diferencial e simples.
-São feitas medidas pelo ADC do Arduino com 8 bits
+
+Ddp measurements using the ADC ADS1115 with differential and single readings.
+Measurements are also made by the Arduino ADC with 8 bits
+Measurements are printed in a table by the serial
+
+Medidas de ddp usando o ADC ADS1115 com leituras diferencial e simples.
+São feitas também medidas pelo ADC do Arduino com 8 bits
 Medidas são impressas em uma tabela pela serial
 
-
-criado     Jan 2021
-por Wanderson D. Lopes
+criado     Jan 2019
+por Adafruit Industries (exemples)
 modificado Set 2022
 por Wanderson D. Lopes
 */
