@@ -18,7 +18,7 @@ por Wanderson D. Lopes
 void setup(){
     Serial.begin(9600);
  
-     Serial.print("Apresentação de valores do vetor");
+     Serial.println("Apresentação de valores do vetor: ");
     for(int i=0;i<n;i++){
         Serial.print(Vetor[i]);
         Serial.print(" - ");
@@ -29,7 +29,7 @@ void setup(){
     selecao(Vetor,n);
 
     Serial.print("\n\n");
-    Serial.print("Valores organizados (ordenados)");
+    Serial.print("Valores organizados (ordenados): ");
     for(int i=0;i<n;i++){
         Serial.print(Vetor[i]);
         Serial.print(" - ");
