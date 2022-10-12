@@ -1,6 +1,8 @@
 /*
 
-
+Cria um vetor com valores determinados
+organiza esses valores
+imprime na serial
 
 
 criado   Set 2022
@@ -9,24 +11,34 @@ modificado Out 2022
 por Wanderson D. Lopes
 */
 
-void setup(){
+  int n=13;
+  int Vetor[] = {3,6,5,1,2,8,7,9,4,10,13,12,11};
 
-    int n=13;
-    int Vetor[] = {3,6,5,1,2,8,7,9,4,10,13,12,11};
+
+void setup(){
+ 
+     Serial.print("Apresentação de valores do vetor");
+    for(int i=0;i<n;i++){
+        Serial.print(Vetor[i]);
+        Serial.print(" - ");
+    }
+
+    Serial.println("");
 
     selecao(Vetor,n);
 
     Serial.print("\n\n");
-
+    Serial.print("Valores organizados (ordenados)");
     for(int i=0;i<n;i++){
         Serial.print(Vetor[i]);
-        Serial.print(" - ")
+        Serial.print(" - ");
     }
 
-    printf("\n\n\n");
+
+    Serial.print("\n\n\n");
 
     system("pause");
-    return 0;
+
 }
 
 
