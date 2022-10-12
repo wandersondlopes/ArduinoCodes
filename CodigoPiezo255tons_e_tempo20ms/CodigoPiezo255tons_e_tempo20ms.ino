@@ -22,7 +22,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("Envie um valor um caracter como entrada para frequencia\n");
+  Serial.print("Envie um caracter como entrada para frequencia\n");
   while(!Serial.available()){}
   freq = Serial.read();
   Serial.print("Envie um caracter como entrada para valor do tempo\n");
