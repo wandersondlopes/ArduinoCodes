@@ -1,5 +1,4 @@
 /*
-
 Cria um vetor com valores determinados
 organiza esses valores
 imprime na serial
@@ -11,8 +10,8 @@ modificado Out 2022
 por Wanderson D. Lopes
 */
 
-  int n=13;
-  int Vetor[] = {3,6,5,1,2,8,7,9,4,10,13,12,11};
+  int n=25;
+  int Vetor[] = {3,6,5,1,2,8,7,9,4,10,13,12,11,17,18,19,20,14,15,16,25,24,23,22,21};
 
 
 void setup(){
