@@ -1,4 +1,13 @@
+/*
 
+
+
+
+criado   Set 2022
+por Wanderson D. Lopes
+modificado Out 2022
+por Wanderson D. Lopes
+*/
 
 void setup(){
 
@@ -7,10 +16,11 @@ void setup(){
 
     selecao(Vetor,n);
 
-    printf("\n\n ");
+    Serial.print("\n\n");
 
     for(int i=0;i<n;i++){
-        printf("%d - ",Vetor[i]);
+        Serial.print(Vetor[i]);
+        Serial.print(" - ")
     }
 
     printf("\n\n\n");
