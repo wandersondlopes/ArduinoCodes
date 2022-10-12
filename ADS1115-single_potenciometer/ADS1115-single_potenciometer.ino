@@ -15,7 +15,7 @@ por Wanderson D. Lopes
 #include <Adafruit_ADS1015.h>
 
 Adafruit_ADS1115 ads(0x48);  /* ADC object at I2C address 0x48 for addr pin = GND */
-// Adafruit_ADS1015 ads;     /* Use thi for the 12-bit version */
+// Adafruit_ADS1015 ads;     /* 12-bit version */
 
 void setup(void) 
 {
