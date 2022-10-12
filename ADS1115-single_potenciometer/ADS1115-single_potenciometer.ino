@@ -2,8 +2,9 @@
 
 Aplicação simples de impressão na Serial de valores medidos pelo conversor analógico digital ADS1115.
 Foi utilizado um potenciometro ligado ao ADS1115.
+Teste de funcionamento
 
-criado        2021
+criado      Abr 2021
 por Wanderson D. Lopes
 modificado Out 2022
 por Wanderson D. Lopes
@@ -39,7 +40,7 @@ void setup(void)
   // ads.setGain(GAIN_SIXTEEN);    // 16x gain  +/- 0.256V  1 bit = 0.125mV  0.0078125mV
   
   ads.begin();
-
+ Serial.println();  
 }
 
 void loop(void) 
@@ -47,6 +48,7 @@ void loop(void)
   int16_t adc0, adc1, adc2, adc3;
 
   adc0 = ads.readADC_SingleEnded(0);
-  Serial.print("AIN0: "); Serial.println(adc0);  
+  Serial.print("AIN0: "); 
+  Serial.println(adc0);  
   delay(1000);
 }
