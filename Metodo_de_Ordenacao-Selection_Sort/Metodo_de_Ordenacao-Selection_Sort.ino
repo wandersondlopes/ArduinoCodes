@@ -29,7 +29,7 @@ void setup(){
     selecao(Vetor,n);
 
     Serial.print("\n\n");
-    Serial.print("Valores organizados (ordenados): ");
+    Serial.println("Valores organizados (ordenados): ");
     for(int i=0;i<n;i++){
         Serial.print(Vetor[i]);
         Serial.print(" - ");
