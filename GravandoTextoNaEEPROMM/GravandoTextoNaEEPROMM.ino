@@ -7,7 +7,7 @@ Opção de imprimir pela serial comentada
 
 criado   03/01/2015
 por Wanderson D. Lopes
-modificado set 2022
+modificado Out 2022
 por Wanderson D. Lopes
 */
 
@@ -17,9 +17,12 @@ por Wanderson D. Lopes
 // the current address in the EEPROM (i.e. which byte
 // we're going to write to next)
 //int address = 0;
-//byte value; // v
+//byte value; // variavel da EEPROM
 int addr = 0; // variavel posição na EEPROM
 char var1;
+char letra;
+
+
 
 void setup()
 {
@@ -27,26 +30,31 @@ void setup()
 }
 
 void loop(){
-  Serial.println("Escreva um texto com até 512 caracteres para ser gravado na EEPROM");
-  delay(30000); 
+  Serial.println("Escreva um texto com até 63 caracteres para ser gravado na EEPROM");
+  while(!Serial.available()){}
+  delay(1000);  
   while(Serial.available()){ 
-      var1 = Serial.read();  
+      var1 = Serial.read(); 
+      Serial.print("Lemos");
+      Serial.println(var1);
       EEPROM.write(addr, var1);
+    //address = addr
       addr = addr +1;
-      if(addr >= 511)
-        addr = 0;    
+      if(addr >= 511) {
+        addr = 0;   } 
   }
-/*  Serial.println("Agora vamos escrever o que esta gravado");
-  delay(500); 
-  for(address; address < 30; address++){
+
+  Serial.println("Agora vamos escrever o que esta gravado");
+  delay(500);
+  addr = 0;  
+  for(addr; addr < 64; addr++){
     // read a byte from the current address of the EEPROM
-    value = EEPROM.read(address);
-    char letra = char(value);
-    Serial.print(address);
+    letra = EEPROM.read(addr);
+    Serial.print(addr);
     Serial.print("\t");
-    Serial.print(letra); //escreve a variavel char para a Serial como esta na tabela ASCI
-    Serial.println();
-    delay(100);  
+    Serial.println(letra); //escreve a variavel char para a Serial como esta na tabela ASCI
+    delay(10);  
   }
-  address = 0; */
+  addr = 0; 
+
 }
