@@ -2,7 +2,8 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Escreve 512 caracteres vindos da serial na EEPROM.
+Escreve 63 caracteres vindos da serial na EEPROM.
+(em edição para escrever 512 caracteres vindos da serial na EEPROM)
 
 criado   03/01/2015
 por Wanderson D. Lopes
