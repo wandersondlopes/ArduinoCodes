@@ -2,8 +2,8 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Escreve caracteres vindos da serial na EEPROM.
-Opção de imprimir pela serial comentada
+Escreve 512 caracteres vindos da serial na EEPROM.
+IDE preparada enviar teste 512 caracteres
 
 criado   03/01/2015
 por Wanderson D. Lopes
@@ -23,16 +23,13 @@ char var1;
 char letra;
 
 
-
-void setup()
-{
+void setup(){
   Serial.begin(9600);
 }
 
 void loop(){
-  Serial.println("Escreva um texto com até 63 caracteres para ser gravado na EEPROM");
-  while(!Serial.available()){}
-  delay(1000);  
+  Serial.println("Escreva um texto com até 512 caracteres para ser gravado na EEPROM");
+  delay(30000);  
   while(Serial.available()){ 
       var1 = Serial.read(); 
       Serial.print("Lemos");
@@ -47,14 +44,14 @@ void loop(){
   Serial.println("Agora vamos escrever o que esta gravado");
   delay(500);
   addr = 0;  
-  for(addr; addr < 64; addr++){
+  for(addr; addr < 512; addr++){
     // read a byte from the current address of the EEPROM
     letra = EEPROM.read(addr);
     Serial.print(addr);
     Serial.print("\t");
     Serial.println(letra); //escreve a variavel char para a Serial como esta na tabela ASCI
-    delay(10);  
+    delay(10);
   }
   addr = 0; 
-
+  
 }
