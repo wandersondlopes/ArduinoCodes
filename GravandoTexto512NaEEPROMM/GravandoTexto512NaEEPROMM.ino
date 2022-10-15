@@ -3,7 +3,6 @@ GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
 Escreve 512 caracteres vindos da serial na EEPROM.
-IDE preparada enviar teste 512 caracteres
 
 criado   03/01/2015
 por Wanderson D. Lopes
