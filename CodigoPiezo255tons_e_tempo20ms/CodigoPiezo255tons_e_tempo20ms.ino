@@ -22,10 +22,10 @@ void setup() {
 }
 
 void loop() {
-  Serial.print("Envie um caracter como entrada para frequencia\n");
+  Serial.print("Envie um número (0-9). O valor será multiplicado por 100 e determina a frequencia\n");
   while(!Serial.available()){}
-  freq = Serial.read();
-  Serial.print("Envie um caracter como entrada para valor do tempo\n");
+  freq = 100*(Serial.read() -48);
+  Serial.print("Envie um caracter como entrada. Seu valor na tabela ASCII será multiplicado por 20 e determina a duração do tom em milissegundos\n");
   while(!Serial.available()){}
   temp = Serial.read();
   Serial.print("frequencia: ");
@@ -33,6 +33,6 @@ void loop() {
   Serial.print("\nTempo: ");
   Serial.println(temp*20);
   tone(piezoeletrico,freq,temp*20); 
-  Serial.print("Envie 'r' para executar mais uma operacao\n\n\n");
-  while(!Serial.available() || Serial.read()!='r'){}
+  Serial.print("Envie caractere para executar mais uma operacao\n\n\n");
+  while(!Serial.available()){}
 }
