@@ -2,18 +2,19 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-
+Software para alimentar um trandutor piezoelétrico
+Determina a frequencia e duração do sinal por caracteres enviados pela serial
 
 criado   6/2/2015
 por Wanderson D. Lopes
-modificado set 2022
+modificado Out 2022
 por Wanderson D. Lopes
 */
 
 
 #define piezoeletrico 9
 
-byte freq = 1046;
+byte freq = 0;
 int temp = 100000;
 
 void setup() {
