@@ -5,7 +5,7 @@ Treina neuronios utilizando Arduino
 Com 3 camadas (imputnodes, hiddennodes e outputnodes)
 Entradas e saidas binárias
 
-criado   
+criado 28/06/2018
 por Ralph Heymsfeld
 modificado out 2022
 por Wanderson D. Lopes
