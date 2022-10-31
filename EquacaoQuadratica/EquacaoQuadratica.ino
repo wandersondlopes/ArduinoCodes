@@ -13,7 +13,7 @@ por Wanderson D. Lopes
 #include<stdio.h>
 #include<math.h>
 
-double delt(double a, double b, double c);
+float delt(double a, double b, double c);
 
 int main()
 {
