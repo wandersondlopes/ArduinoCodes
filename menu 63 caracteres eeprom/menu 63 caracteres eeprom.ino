@@ -2,7 +2,6 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Firmware que recebe 63 caracteres orientados pelo terminal da serial( por um menu) 8 vezes (completa os 512 com mais 8 caracteres
 
 
 criado   03/01/2015
