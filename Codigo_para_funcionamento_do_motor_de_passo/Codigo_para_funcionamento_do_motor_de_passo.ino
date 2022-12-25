@@ -1,21 +1,10 @@
 /*
 
+Codigo para Motor de passo de leitores de disquete
 
-Codigo para Motor de passo de leitores de CD
-e disquete
-
-criado   Nov 2015
+criado   11/10/2015
 por Wanderson D. Lopes
 */
-
-
-
-
-/********************************************
-
-
-
-********************************************/
 
 #define BOBINA1A 4
 #define BOBINA1B 5
