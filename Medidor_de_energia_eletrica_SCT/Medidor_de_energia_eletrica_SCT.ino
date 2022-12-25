@@ -2,11 +2,11 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Programa : Medidor de energia elétrica com Arduino e SCT-013
+Medidor de corrente e energia e Potencia elétrica com Arduino e SCT-013
 Baseado no programa exemplo da biblioteca EmonLib
 
-criado  
-por FILIPEFLOP
+criado  11/02/2015
+por FILIPEFLOP (Adilson Thomsen)
 modificado Dez 2022
 por Wanderson D. Lopes
 */
