@@ -1,6 +1,6 @@
 /*
 
-Codigo para Motor de passo de leitores de disquete
+Codigo para motor de leitores de disquete
 
 criado   11/10/2015
 por Wanderson D. Lopes
