@@ -6,9 +6,9 @@ This sketch demonstrates the basic use of the AD9833 DDS module library.
 This example code is in the public domain.  
 Library code found at: https://github.com/Billwilliams1952/AD9833-Library-Arduino
 
-criado    2018
-por Bill Williams (WLWilliams)
-modificado Jan 2023
+created   2018
+by Bill Williams (WLWilliams)
+modicated Jan 2023
 por Wanderson D. Lopes
 */
 
@@ -33,10 +33,10 @@ void setup() {
     //   Phase - 0 to 360 degress (this is only useful if it is 'relative' to some other signal
     //           such as the phase difference between REG0 and REG1).
     // In ApplySignal, if Phase is not given, it defaults to 0.
-    gen.ApplySignal(SINE_WAVE,REG0,10000);
+    gen.ApplySignal(SINE_WAVE,REG0,100000);
    
     gen.EnableOutput(true);   // Turn ON the output - it defaults to OFF
-    // There should be a 10000 Hz sine wave on the output of the AD9833
+    // There should be a 100000 Hz sine wave on the output of the AD9833
 }
 
 void loop() {
