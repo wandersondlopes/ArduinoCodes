@@ -1,7 +1,15 @@
+/*
+
+O Arduino gera um sinal PWM que com uma shild adicional tem uma saida de sinal de onda senoidal
+
 Criated Apr 2020
 by Lucas Alexandre
 Modified Jan 2023
-by Wanderson D. Lopes 
+by Wanderson D. Lopes
+*/
+
+
+
 
 // Sine wave generator simulator
  
