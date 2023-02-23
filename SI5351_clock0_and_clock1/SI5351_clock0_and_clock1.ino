@@ -25,7 +25,7 @@ void setup()
     Serial.println("Device not found on I2C bus!");
   }
 
-  // Set CLK0 to output 14 MHz
+  // Set CLK0 to output 10 MHz
   si5351.set_freq(1000000000ULL, SI5351_CLK0);
 
   // Set CLK1 to output 100 MHz
