@@ -10,8 +10,6 @@ por Wanderson D. Lopes
 */
 
 
-#include<stdio.h>
-#include<math.h>
 
 float delt(double a, double b, double c);
 
