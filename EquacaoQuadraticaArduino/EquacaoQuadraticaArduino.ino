@@ -11,14 +11,37 @@ por Wanderson D. Lopes
 
 
 
-float delt(double a, double b, double c);
+//float delt(double a, double b, double c);
 
-int main()
+void setup()
 {
-  double a,b,c,Delta,x[2];
-
-  printf("Enter the a,b and c\n values from a a*x^2 + b*x + c = 0 equation\n");
-  scanf("%lf %lf %lf",&a,&b,&c);
+  float a,b,c,Delta,x[2];
+  Serial.begin(9600);
+  Serial.println("Enter the a value a from a*x^2 + b*x + c = 0 equation");
+  delay(5000);
+  a = Serial.read();
+  Serial.println("Enter the a value b from a*x^2 + b*x + c = 0 equation");
+  delay(5000);
+  b = Serial.read();
+  Serial.println("Enter the a value c from a*x^2 + b*x + c = 0 equation");
+  delay(5000);
+  c = Serial.read();
+  
+  /*
+  Serial.println("Enter the a,b and c values from a a*x^2 + b*x + c = 0 equation");
+  delay(5000);
+  c = Serial.read();
+  
+ 
+  for(int i; i <3;i++){
+  
+  }
+    
+    
+  float D;
+  D = pow(b,2) - 4*a*c;
+  
+  
   Delta=delt(a,b,c);
 
   if(Delta<0.0e+0){
@@ -34,14 +57,19 @@ int main()
     x[1] = ( -b - sqrt(Delta) )/(2*a);
     printf("x1 = %lf , x2 = %lf \n",x[0],x[1]);
   }
-
-  return 0;
-}
-
-
-double delt(double a,double b,double c){
-  double D;
-  D = pow(b,2) - 4*a*c;
-  return D;
   
+  */
+
 }
+
+void loop()
+{
+
+}
+
+/*
+void delt(double a,double b,double c)
+{
+
+}
+*/
