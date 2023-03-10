@@ -1,5 +1,5 @@
 /*
-Curso Química Computacional- IQ/UFG
+Curso QuÃ­mica Computacional- IQ/UFG
 
 
 
@@ -14,8 +14,8 @@ por Wanderson D. Lopes
 */
 
 #include <avr/io.h>
-#include<stdio.h>
-#include<math.h>
+//#include<stdio.h>
+//#include<math.h>
 
 
 double delt(double a, double b, double c);
