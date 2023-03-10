@@ -1,0 +1,2 @@
+Compilador	
+IDE	Codeblocks
