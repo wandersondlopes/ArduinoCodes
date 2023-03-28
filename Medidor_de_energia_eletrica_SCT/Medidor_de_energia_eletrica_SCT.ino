@@ -4,6 +4,8 @@ Instituto de Quimica - UFG
 
 Medidor de corrente e potência elétrica aparente com Arduino e SCT-013.
 Baseado no programa exemplo da biblioteca EmonLib
+Podemos considerar resultados aproximados em Watts para cargas resistivas 
+como por exemplo ferro elétrico e churrasqueira elétrica.
 
 criado  11/02/2015
 por FILIPEFLOP (Adilson Thomsen)
