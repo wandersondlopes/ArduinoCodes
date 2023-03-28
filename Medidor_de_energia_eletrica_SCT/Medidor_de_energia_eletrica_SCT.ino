@@ -2,7 +2,7 @@
 GME - Grupo de Metodos Eletroforéticos
 Instituto de Quimica - UFG
 
-Medidor de corrente e potência elétrica com Arduino e SCT-013.
+Medidor de corrente e potência elétrica aparente com Arduino e SCT-013.
 Baseado no programa exemplo da biblioteca EmonLib
 
 criado  11/02/2015
@@ -34,7 +34,7 @@ void setup()
   lcd.setCursor(0,0);
   lcd.print("Corr.(A):");
   lcd.setCursor(0,1);
-  lcd.print("Pot. (W):");
+  lcd.print("Pot. (VA):");
 } 
   
 void loop() 
