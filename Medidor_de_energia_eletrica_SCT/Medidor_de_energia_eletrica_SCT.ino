@@ -18,7 +18,7 @@ EnergyMonitor emon1;
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
  
 //Tensao da rede eletrica
-int rede = 110.0;
+int rede = 220.0;
  
 //Pino do sensor SCT
 int pino_sct = 1;
@@ -55,5 +55,5 @@ void loop()
   lcd.setCursor(10,1);
   lcd.print(Irms*rede,1);
    
-  delay(1000);
+  delay(500);
 }
