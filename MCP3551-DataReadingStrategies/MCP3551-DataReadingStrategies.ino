@@ -3,18 +3,15 @@
 
 Esse código é um exemplo de uso com 3 maneiras diferentes de receber os bits do MCP3551
 O protocolo de comunicação é SPI
+pins: 
+ cs=8
+ sdo/rdy=12
+ sck=13
 
 criado   2021
 por Wanderson D. Lopes
 modificado set 2022
 por Wanderson D. Lopes
-*/
-
-/*
-pins: 
- cs=8
- sdo/rdy=12
- sck=13
 */
 
 
