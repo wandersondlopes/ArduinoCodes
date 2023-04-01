@@ -4,6 +4,8 @@
 Generation of sine wave, 256 and 512 bits resolution with the MCP4725 DAC.
 Support Adafruit and open-source hardware by purchasing products from Adafruit!
 
+Library code found at: https://github.com/adafruit/Adafruit_MCP4725
+
 criado  Jun 2015
 por Adafruit Industries
 modificado Set 2022
