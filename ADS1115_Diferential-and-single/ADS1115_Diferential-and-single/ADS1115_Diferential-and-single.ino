@@ -8,7 +8,7 @@ Medidas de ddp usando o ADC ADS1115 com leituras diferencial e simples.
 São feitas também medidas pelo ADC do Arduino com 8 bits
 Medidas são impressas em uma tabela pela serial
 
-Library code found at: https://github.com/adafruit/Adafruit_ADS1X15
+Library code found at: https://github.com/thingSoC/TSOC_GROVEY_ADC/blob/master/libraries/Adafruit_ADS1X15/Adafruit_ADS1015.h
 
 criado      2019
 por Adafruit Industries (exemples)
