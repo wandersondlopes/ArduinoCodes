@@ -1,6 +1,7 @@
 /*
 
 Exemple set clock0 and clock1 output using Si5351Arduino library
+https://github.com/NT7S/Si5351
 
 Criated 2015
 by Jason Milldrum <milldrum@gmail.com>
