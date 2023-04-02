@@ -2,6 +2,7 @@
 Aplicação simples de impressão na Serial de valores medidos pelo conversor analógico digital ADS1115.
 Foi utilizado um potenciometro ligado ao ADS1115.
 Teste de funcionamento
+Library code found at: https://github.com/thingSoC/TSOC_GROVEY_ADC/blob/master/libraries/Adafruit_ADS1X15/Adafruit_ADS1015.h
 
 criado     Abr 2021
 por Wanderson D. Lopes
