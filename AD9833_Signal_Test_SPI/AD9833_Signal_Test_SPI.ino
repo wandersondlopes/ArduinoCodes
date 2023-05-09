@@ -22,7 +22,7 @@ por Wanderson D. Lopes
 // Note, SCK and MOSI must be connected to CLK and DAT pins on the AD9833 for SPI
 AD9833 gen(FNC_PIN);       // Defaults to 25MHz internal reference frequency
 
-void setup() {
+void setup( void ) {
     // This MUST be the first command after declaring the AD9833 object
     gen.Begin();              
 
@@ -40,7 +40,7 @@ void setup() {
     // There should be a 100000 Hz sine wave on the output of the AD9833
 }
 
-void loop() {
+void loop( void ) {
     // To change the signal, you can just call ApplySignal again with a new frequency and/or signal
     // type.
 }
