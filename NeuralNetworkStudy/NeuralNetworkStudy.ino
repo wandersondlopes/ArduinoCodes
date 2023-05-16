@@ -1,7 +1,7 @@
 /*
 
 Codigo escrito para treinar uma rede neural
-Possue 3 camadas (imputnodes, hiddennodes e outputnodes)
+Possue 3 camadas (inputnodes, hiddennodes e outputnodes)
 Entradas e saidas binárias
 
 criado 28/06/2018
