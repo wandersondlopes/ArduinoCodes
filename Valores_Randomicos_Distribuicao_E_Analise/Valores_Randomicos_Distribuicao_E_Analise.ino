@@ -26,7 +26,7 @@ void loop(){
     Serial.println(randomVal);
     if (randomVal == 299){
       n = n + 1;
-      Serial.print("veja ja saiu o valor maximo ");
+      Serial.print("valor maximo encontrado");
       Serial.print(n);
       Serial.println("\t vezes");
     }
