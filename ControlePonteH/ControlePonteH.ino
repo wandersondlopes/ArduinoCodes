@@ -18,7 +18,6 @@ por Wanderson D. Lopes
 void setup() {
   pinMode(pin1,OUTPUT);
   pinMode(pin2,OUTPUT);
-  
 }
 
 void loop() {
@@ -33,7 +32,6 @@ digitalWrite(pin2,LOW);
 delay(3000);
 
 pararMotor();
-
 }
 
 void pararMotor(){
