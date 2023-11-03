@@ -35,7 +35,6 @@ void setup(){
 
   Serial.print(char(c));  
   delay(100);
-  
 }
 
 
@@ -49,6 +48,6 @@ void loop(){
     k = k -7;  
   if(l>6)
     l = l-7;  
-  
+
   delay(100);
 }
