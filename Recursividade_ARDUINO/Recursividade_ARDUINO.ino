@@ -13,7 +13,6 @@ por Wanderson D. Lopes
 */
 
 
-
 void impressao(int inicio, int finzin){
   if(inicio<=finzin){
     Serial.print("Funcao recurciva - Valores sao: ") ;
@@ -27,7 +26,6 @@ void setup() {
   int inicio = 0;
   int finzin = 10;
   
-  // put your setup code here, to run once:
   Serial.begin(9600);
   impressao(inicio,finzin);
   //boolean a = false;
@@ -39,6 +37,5 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
 
 }
