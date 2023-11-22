@@ -13,7 +13,6 @@ por Wanderson D. Lopes
 */
 
 
-
 #define buss 5000
 bool buzzctr = true;
 char ctr;
@@ -39,5 +38,5 @@ void loop(){
         buzzctr = false;
         }
       }
-    }
+   }
 }
