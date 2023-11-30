@@ -17,7 +17,7 @@ por Wanderson D. Lopes
 void setup(){
     Serial.begin(9600);
  
-     Serial.println("Apresentação de valores do vetor: ");
+    Serial.println("Apresentação de valores do vetor: ");
     for(int i=0;i<n;i++){
         Serial.print(Vetor[i]);
         Serial.print(" - ");
