@@ -1,8 +1,21 @@
 /*
+GME - Grupo de Metodos Eletroforéticos
+Instituto de Quimica - UFG
+
 Leitura de fotodiodo IR e conversão em absorvancia e transmitância
 
 Criado 26/02/2015
 por Wanderson Domingos Lopes
+modificado 25/05/2024
+por Wanderson D. Lopes
+*/
+
+
+
+
+
+/*
+
 
 */
 
