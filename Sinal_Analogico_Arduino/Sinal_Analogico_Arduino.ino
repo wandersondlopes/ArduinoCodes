@@ -23,7 +23,7 @@
 
   void loop(){
     for (x=0; x<255; x++){
-    seno = 100+(100*(sin(x*(6.28/255))));
+    seno = 100+(100*(sin(x*(6/255))));
     valor = int(seno);
     analogWrite(outputPWM, valor);
     delay(30);
