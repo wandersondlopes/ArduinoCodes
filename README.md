@@ -4,4 +4,4 @@ Estão dispostos códigos para Arduino que eu escrevi no Grupo de Métodos Eletr
 outras empresas e projetos.
 Tem utilidade prática, podem ser utilizados em varias aplicações.
 Tem ideias simples que podem ser utilizadas em experimentos.
-Podemos utiliza-los com childs, circuitos, operações em estudo entre outras aplicações.
+Alguns projetos utilizam childs, circuitos adicionais, alguns foram utilizados em operações em estudo de desenvolvimento em prototipagem. Podem ser utilizados com adaptações em outras aplicações.
