@@ -3,7 +3,9 @@
 
 void setup(){
 Serial.begin(9600);
+String texto = "lá, Arduino!";
 
+  
 }
 
 
